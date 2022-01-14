@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(71, 218, 255);
+  color: #25176d;
+}
+
+a {
+  color: #25176d;
+}
+
+header {
+  padding: 8px;
+  background-color: #25176d;
+  text-align: center;
+}
+
+header h1 {
+  color: #fff8e7;
+  font-family: "Righteous", sans-serif;
+  font-size: 32px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #fff8e7;
+  padding: 16px;
+  margin: 16px 0;
+  box-shadow: 8px 8px #25176d;
+}
+
+form {
+  display: flex;
+  gap: 8px;
+}
